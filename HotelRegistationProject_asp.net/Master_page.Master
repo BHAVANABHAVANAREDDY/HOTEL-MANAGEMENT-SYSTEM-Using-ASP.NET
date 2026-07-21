@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master_page.master.cs" Inherits="HotelRegistationProject_asp.net.Master_page" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>html</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+    <style>
+        h1{
+            background-color:cornsilk;
+        }
+        nav{
+            background-color:burlywood;
+        }
+        .nav{
+            font-family:Arial;
+            font-size:30px;
+            font-style:italic;
+            color:red;
+        }
+        button{
+            border:3px solid brown;
+            font-size:20px;
+            color:red;
+            
+        }
+    </style>
+<body>
+    <form id="form1" runat="server">
+        <header>
+        <h1  align="center">Royal Haven Hotel Management System </h1>
+            <nav>  &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                <span class="nav"><a href="registrationpage.aspx"> User Registration</a></span>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                <span class="nav"><a href="masterpagewebform.aspx"> Hotel Images </a></span>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                <span class="nav"><a href="masterpagewebform.aspx"> Hotel Registration</a></span>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                <span class="nav"><a href="masterpagewebform.aspx"> Hotel Details</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+               
+            <button><a href="registrationpage.aspx">sign-up</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button ><a href="masterpagewebform.aspx"> login</a></button>
+                
+      </nav>
+            </header>
+         <div>
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+     </asp:ContentPlaceHolder>
+ </div>
+        <footer>
+            <div border="1">@&nbsp; Royal Haven Hotel Management System.....</div>
+        </footer>
+       
+       
+        
+    </form>
+</body>
+</html>
