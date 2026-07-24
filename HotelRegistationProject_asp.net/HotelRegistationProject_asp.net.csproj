@@ -90,6 +90,15 @@
     <Content Include="images\Screenshot 2026-06-09 161327.png" />
     <Content Include="loggedPage.aspx" />
     <Content Include="masterpagewebform.aspx" />
+    <Content Include="output screenshot\Screenshot 2026-07-24 153110.png" />
+    <Content Include="output screenshot\Screenshot 2026-07-24 153126.png" />
+    <Content Include="output screenshot\Screenshot 2026-07-24 153139.png" />
+    <Content Include="output screenshot\Screenshot 2026-07-24 153158.png" />
+    <Content Include="output screenshot\Screenshot 2026-07-24 153258.png" />
+    <Content Include="output screenshot\Screenshot 2026-07-24 153309.png" />
+    <Content Include="output screenshot\Screenshot 2026-07-24 153321.png" />
+    <Content Include="output screenshot\Screenshot 2026-07-24 153332.png" />
+    <Content Include="output screenshot\Screenshot 2026-07-24 153347.png" />
     <Content Include="registrationpage.aspx" />
     <Content Include="userRegistrationPage.aspx" />
     <Content Include="Web.config" />
